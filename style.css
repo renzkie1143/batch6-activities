@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header {
+    background-image: url('images/header.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.header img {
+    margin-top: 200px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    position: absolute;
+    top: 100px;
+    border-radius:100px;
+   
+}
+.profile{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 20px ;
+}
+.profile h2{
+    padding-top: 10px;
+}
+.main{
+    padding-top: 50px ;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.project img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 35px;
+
+}
+.project h2{
+    text-align: center;
+}
+.footer{
+    height: 100px;
+    background-color: rebeccapurple;
+}
+ 
