@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway',sans-serif;
+}
+body{
+    animation: bgcolor infinite 20s;
+}
+.header{ 
+    background: url('images/1.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 695px; 
+    display: flex;
+    justify-content: center;
+  
+}
+.title{
+    padding-top: 250px;
+    color: #ff4411;
+    text-align: center; 
+    font-size: 30px; 
+  
+}
+#main{
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 24px;
+    transform: translate(-50, -50);
+}
+
+@keyframes bgcolor{
+    20%
+    {
+        background:#e74c3c ;
+    }
+    40%
+    {
+        background:#2980b9 ;
+    }
+    80%
+    {
+        background:#f1c40f ;
+    }
+    100%
+    {
+        background:#8e44ad ;
+    }
+
+}
+
+#img-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+#image{
+    margin-top: 30px;
+    border: 3px solid black;
+}
+#img-caption{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+#img-caption > h3{
+    padding-top: 8px;
+}
+#title{
+    text-align: center;
+}
+
+.parallax{
+    margin-top: 40px;
+    padding-top: 10px;
+    background: url('images/3.jpg') no-repeat center ;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+} 
+#tribute-info{
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 0;
+    max-width: 88%;
+    padding: 20px 50px 40px;
+    text-align: justify;
+    letter-spacing: 3px;;
+    text-indent: 50px; 
+}
+.parallax2{
+    background: url('images/2.jpg') no-repeat center ;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+} 
+
+.awards ul{
+    padding-left: 40px;
+   display: inline-block;
+   padding-bottom: 30px;
+   
+}
+
+
+.parallax3{
+    background: url('images/4.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 695px;
+} 
+#tribute-link{
+    text-align: center;
+    
+}
