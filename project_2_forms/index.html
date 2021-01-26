@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>  
+<body">
+    <header>
+        <div id="title">
+            <h1>Avion School Survey Form</h1>
+        </div>
+        <div id="discription">
+            <p>Thank you for taking time to help us improve the platform.</p>
+        </div>
+    </header>    
+    <div class="wrapper">
+        <form action="results.html" method="GET" id="survey-form">
+            <div class="input">
+                <label for="name-label">Name: </label>
+                <input type="text" name="name" id="name-label" placeholder="Enter Name" required>
+            </div>
+            <div class="input">
+                <label for="age">Age (optional):</label>  
+                <input style="color:black;" type="number" name="age" id="age" min="10" max="99" required>  
+            </div>   
+            <div class="input">
+                <label for="number-label">Contact #:</label>
+                <input type="tel" name="number" id="number-label" placeholder="Enter Contact No." min="11" max="13" required>
+            </div>  
+            <div class="input"> 
+                <label for="email-label">Email: </label>
+                <input type="email" name="email"  id="email-label" placeholder="Enter Email" required>
+                </label>
+            </div>       
+            <div class="input">
+                <label for="date">Birthdate:</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <div >
+                <div style="margin-top: 10px;" >Gender:</div>
+                <input class="checker" type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input class="checker" type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+            </div>
+            <div>
+                <div>Would you recommend Avion School to a friend</div>
+                <input class="checker" type="radio" name="recommend" id="definitely">
+                <label for="definitely">Definitely</label>
+                <input class="checker" type="radio" name="recommend" id="maybe">
+                <label for="maybe">Maybe</label>
+                <input class="checker" type="radio" name="recommend" id="notsure">
+                <label for="notsure">Not Sure</label>   
+            </div>
+            <div class="dropdown">
+                <label id="dropdown-label" for="dropdown">Which option best discribe your current role?</label><br>
+                <select  name="discribe" id="dropdown">
+                    <option value="student">Student</option>
+                    <option value="professional">Professional</option> 
+                    <option value="secret">Prefer Not to say</option>
+                    <option value="others">others</option>
+                </select>
+            </div>   
+            <div class="dropdown">
+                <label id="dropdown-label" for="dropdown2">What is your favorite feature of Avion School</label><br>
+                <select  name="features">
+                    <option value="Challenges">Challenges</option>
+                    <option value="Projects">Projects</option>
+                    <option value="Community">Community</option>  
+                    <option value="Other">Other</option>
+                </select>
+            </div>              
+            <div class="checkers">
+                <div>What you like to see improved? (check all that apply)</div>
+                <input type="checkbox" name="checkbox" id="frontend" value="frontend">
+                <label for="frontend">Front-end Projects</label><br>
+                <input type="checkbox" name="checkbox" id="backend" value="backend">
+                <label for="backend">Back-end Projects</label><br>
+                <input type="checkbox" name="checkbox" id="forums" value="forums">
+                <label for="good">forums</label><br>
+                <input type="checkbox" name="checkbox" id="challenges" value="challenges">
+                <label for="challenges">challenges</label><br>
+                <input type="checkbox" name="checkbox" id="additional" value="additional">
+                <label for="additional">Additional Courses</label><br>
+                <input type="checkbox" name="checkbox" id="wiki" value="wiki">
+                <label for="wiki">Wiki</label><br>
+            </div>
+            <div class="comment">
+                <label for="comments">Comments and Suggestion</label><br>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+            <div>
+            <button class="button" type="reset"> <span>Clear </span></button>
+            <button class="button type="submit" id="submit"> <span>Submit</span></button>
+            </div>
+        </form>
+    </div>    
+</body>
+</html>
