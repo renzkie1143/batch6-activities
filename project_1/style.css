@@ -13,14 +13,12 @@ body{
     height: 695px; 
     display: flex;
     justify-content: center;
-  
 }
 .title{
     padding-top: 250px;
     color: #ff4411;
     text-align: center; 
     font-size: 30px; 
-  
 }
 #main{
     max-width: 100%;
@@ -28,25 +26,20 @@ body{
     font-size: 24px;
     transform: translate(-50, -50);
 }
-
 @keyframes bgcolor{
+   
     20%
     {
-        background:#e74c3c ;
+        background:white ;
     }
     40%
     {
-        background:#2980b9 ;
+        background:#f1c40f ;
     }
     80%
     {
-        background:#f1c40f ;
-    }
-    100%
-    {
         background:#8e44ad ;
     }
-
 }
 
 #img-div{
@@ -70,7 +63,6 @@ body{
 #title{
     text-align: center;
 }
-
 .parallax{
     margin-top: 40px;
     padding-top: 10px;
@@ -95,15 +87,12 @@ body{
     background-attachment: fixed;
     height: 400px;
 } 
-
 .awards ul{
     padding-left: 40px;
    display: inline-block;
    padding-bottom: 30px;
    
 }
-
-
 .parallax3{
     background: url('images/4.jpg') no-repeat center;
     background-size: cover;
