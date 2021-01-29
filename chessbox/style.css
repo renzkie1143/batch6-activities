@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0; 
+ }
+body {
+    background-image:url('images/1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: auto;
+}
+header{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 15px;
+    margin-bottom: 40px;
+}
+footer{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 40px;
+    margin-bottom: 15px;
+}
+.chessboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box{
+    width: 6vw;
+    height: 6vw;
+    text-align: center;
+    font-size: 4vw;
+    border: black 1px solid;
+}
+.white {
+    background-position: center;
+    background-color: #ffffff;
+  }
+.white:hover{
+    cursor: pointer;;
+    color:  rgba(109, 67, 246, 0.972);
+    font-size: 4.3vw;
+  }
+.black{
+    color: #ffffff;
+    background-color:#696969; 
+    color:black;
+}
+.black:hover{
+    cursor: pointer;
+    color: rgba(109, 67, 246, 0.972);
+    font-size: 4.3vw;
+}
+.blank_white{
+    background-color: #ffffff;
+}
+.blank_black{
+    background-color:#696969;
+}
