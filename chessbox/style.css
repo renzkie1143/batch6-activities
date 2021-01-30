@@ -12,14 +12,14 @@ body {
 }
 header{
     text-align: center;
-    font-size: 35px;
-    padding-top: 15px;
-    margin-bottom: 40px;
+    font-size: 25px;
+    padding-top: 10px;
+    margin-bottom: 30px;
 }
 footer{
     text-align: center;
     font-size: 15px;
-    padding-top: 40px;
+    padding-top: 10px;
     margin-bottom: 15px;
 }
 .chessboard {
@@ -31,8 +31,8 @@ footer{
     margin-right: auto;
 }
 .box{
-    width: 6vw;
-    height: 6vw;
+    width: 5vw;
+    height: 5vw;
     text-align: center;
     font-size: 4vw;
     border: black 1px solid;
@@ -43,7 +43,7 @@ footer{
   }
 .white:hover{
     cursor: pointer;;
-    color:  rgba(109, 67, 246, 0.972);
+    color:  rgba(73, 22, 240, 0.972);
     font-size: 4.3vw;
   }
 .black{
@@ -53,7 +53,7 @@ footer{
 }
 .black:hover{
     cursor: pointer;
-    color: rgba(109, 67, 246, 0.972);
+    color: rgba(73, 22, 240, 0.972);
     font-size: 4.3vw;
 }
 .blank_white{
