@@ -16,7 +16,7 @@ body {
 }
 header{
    text-align: center;
-   padding-bottom: 30px;
+   padding-bottom: 20px;
 }
 .chessboard {
     display: grid;
@@ -30,7 +30,7 @@ header{
 }
 .container {
     display: grid;
-    grid-template-rows: repeat(8, 6vw);
+    /* grid-template-rows: repeat(8, 6vw); */
     grid-template-columns: repeat(8, 6vw);
 }
 .box {
