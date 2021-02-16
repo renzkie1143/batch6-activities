@@ -1,8 +1,8 @@
-// const toggleButton = document.getElementsByClassName('toggle-button')[0]
-// const navbarLinks = document.getElementsByClassName('navbar-links')[0]
-// toggleButton.addEventListener('click', () => {
-//   navbarLinks.classList.toggle('active')
-// });
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+});
 
 const modal = document.querySelector(".modal");
 const previews = document.querySelectorAll(".gallery img");
@@ -27,7 +27,6 @@ modal.addEventListener('click' , (e) => {
     original.classList.remove("open");
   }
 });
-
 
 
 window.addEventListener("scroll", function(){
