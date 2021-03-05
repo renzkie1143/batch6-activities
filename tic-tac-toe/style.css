@@ -1,4 +1,3 @@
-
 *, *::after, *::before{
     box-sizing: border-box;
 }
@@ -55,3 +54,7 @@ section {
     border-bottom: none;
 }
 
+/** New added code by Aniez */
+.previous, .next {
+    display: none;
+}
