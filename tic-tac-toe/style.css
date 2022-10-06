@@ -3,6 +3,7 @@
 }
 body {
     margin: 0;
+    background-color: grey;
 }
 :root{
     --cell-size:100px;
@@ -32,7 +33,7 @@ section {
 
     width: var(--cell-size);
     height: var(--cell-size);
-    border:1px solid black;
+    border:1px solid white;
     cursor: pointer;
     line-height: 100px;
     font-size: 60px; 

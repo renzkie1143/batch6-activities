@@ -1,0 +1,229 @@
+:root{
+    --dark: #374151;
+    --darker: #1f2937;
+    --darkest: #111827;
+    --gray:#6B7280;
+    --light: #EEE;
+    --pink: #ec4899;
+    --purple: #8b5cf6;
+}
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--dark);
+    color: var(--light);
+}
+.toDoListContent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    width: 50%;
+}
+h1{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: var(--darker);
+    font-weight: 700;
+    font-size: 40px;
+}
+#inpuField{
+    background-color: var(--darker);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: var(--light);
+    font-size: 18px;
+    width: 100%;
+}
+input, button{
+    appearance: none;
+    border:none;
+    outline:none;
+    background: none;
+}
+#addBtn{
+    color: var(--pink);
+    font-size: 30px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, var(--pink), var(--purple));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#addBtn:hover{
+    opacity: 0.8;
+}
+#addBtn:active{
+    opacity: 0.6;
+}
+#toDoContainer{
+    margin-top: 30px;
+    font-size: 25px;
+    width: 70%;   
+}
+.toDoList{
+    font-size: 25px;
+    font-weight: 300;
+    color: var(--light); 
+    
+}
+.toDoListChange{
+    font-size: 25px;
+    font-weight: 300;
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+.input{
+   width: 70%;
+   display: flex;
+}
+output{
+    float: left;
+
+}
+.removeBtn{
+    border-radius: 4px; 
+    margin-top: 3px; 
+    color:crimson;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.doneBtn{
+    color: var(--pink);
+    font-size: 20px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, var(--pink), var(--purple));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#doneBtn:hover{
+    opacity: 0.8;
+}
+#doneBtn:active{
+    opacity: 0.6;
+}
+li{
+    list-style: none;
+    border-radius: 8px;
+    margin-bottom: 8px;
+   
+    /* display: flex; */
+    
+}
+.buttonDiv{
+    float: right;
+}
+@media  (max-width: 500px){
+    .toDoListContent{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    h1{
+        margin-top: 15px;
+        margin-bottom: px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    #addBtn{
+       
+        font-size: 20px;
+        font-weight: 700;
+       
+    }
+    .input{
+        width: 100%;
+        display: flex;
+     }
+    #inpuField{
+      
+        padding: 5px;
+        border-radius: 10px;
+        margin-right: 1px;
+        font-size: 5px;
+        width: 100%;
+    }
+    #toDoContainer{
+        margin-top: 30px;
+        font-size: 25px;
+        width: 100%;  
+    }
+    .removeBtn{
+        border-radius: 4px; 
+        margin-top: 3px; 
+        font-size: 15px;
+        font-weight: 700;
+       
+    }
+    .doneBtn{
+       
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .toDoList{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    
+}
+@media  (max-width: 768px){
+    .toDoListContent{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 20px;
+        width: 50%;
+    }
+    h1{
+        margin-top: 15px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    #addBtn{
+       
+        font-size: 15px;
+        font-weight: 700;
+       
+    }
+    #inpuField{
+      
+        padding: 10px;
+        border-radius: 10px;
+        margin-right: 1px;
+        font-size: 10px;
+        width: 100%;
+    }
+    .removeBtn{
+        border-radius: 4px; 
+        margin-top: 3px; 
+        font-size: 10px;
+        font-weight: 700;
+       
+    }
+    .doneBtn{
+       
+        font-size: 10px;
+        font-weight: 700;
+    }
+    .toDoList{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    
+}
